@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "moduleResolution": "Node",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "paths": {
+      "@base/*": [
+        "src/base/*"
+      ],
+      "@decorators/*": [
+        "src/decorators/*"
+      ],
+      "@interceptors/*": [
+        "src/interceptors/*"
+      ],
+      "@modules/*": [
+        "src/modules/*"
+      ],
+      "@pipes/*": [
+        "src/pipes/*"
+      ],
+      "@shared/*": [
+        "src/shared/*"
+      ],
+      "@auth/*": [
+        "src/auth/*"
+      ]
+    }
+  }
+}

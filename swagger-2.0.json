@@ -1,0 +1,37 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "contact": {},
+    "description": null,
+    "title": "hospital-api API spec",
+    "version": "0.1.0"
+  },
+  "host": "127.0.0.1:8888",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/ping": {
+      "get": {
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "operationId": "AppController_getHello"
+      }
+    }
+  },
+  "definitions": {},
+  "securityDefinitions": {
+    "access-token": {
+      "in": "header",
+      "name": "access-token",
+      "type": "apiKey"
+    }
+  },
+  "tags": [],
+  "x-components": {}
+}

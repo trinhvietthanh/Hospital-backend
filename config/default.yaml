@@ -1,0 +1,14 @@
+# Default config
+service:
+  name: hospital-api
+  description:
+  baseUrl: /api
+  docsBaseUrl: /docs
+  apiVersion: 0.1.0
+  appVersion: 0.1.0
+
+server:
+  host: 127.0.0.1
+  port: 8888
+  hostname: 127.0.0.1:8888
+  swaggerSchema: http
